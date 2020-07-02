@@ -401,11 +401,11 @@ class CommandParser(Cmd):
         self.close()
 
     def do_status(self, s):
-        """Prints plugin status status"""
+        """Prints Skills status status"""
         count_enabled = self._plugin_manager.get_number_plugins_loaded()
         count_disabled = len(self._plugin_manager.get_disabled())
         print_say(
-            "{} Plugins enabled, {} Plugins disabled.".format(
+            "{} Skills enabled, {} Skills disabled.".format(
                 count_enabled,
                 count_disabled),
             self)
@@ -451,5 +451,5 @@ class CommandParser(Cmd):
             Cmd.columnize(self, helpOutput)
 
     def help_status(self):
-        print_say("Prints info about enabled or disabled plugins", self)
+        print_say("Prints info about enabled or disabled Skills", self)
         print_say("Use \"status short\" to omit detailed information.", self)
