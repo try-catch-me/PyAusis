@@ -162,9 +162,6 @@ def my_plugin(ausis, s):
 
     # Prints 'This is my new plugin!'
     ausis.say("This is my new plugin!")
-
-# For more info about plugin development visit:
-# https://github.com/sukeesh/ausis/blob/master/doc/PLUGINS.md
 EOL"""
 
     return template
