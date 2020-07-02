@@ -1,5 +1,4 @@
-# PyAusis
-# Commands Interepretation 
+# PyAusis Commands Interepretation 
 
 # AusisAPI(self, ausis) 
 
