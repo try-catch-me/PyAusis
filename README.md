@@ -1,3 +1,14 @@
+# PyAusis
+
+    Author: Umer Farid, Assasa Hussain
+Speech Interactive System in Python (PyAusis) developed for UNIX (Linux, MACOS) and Windows.
+
+# How to install
+    git clone github.com/MrRobot-hub/PyAusis.git
+    cd PyAusis
+    chmod +x setup.sh
+    bash setup.sh
+
 # PyAusis Commands Interepretation 
 
 # AusisAPI(self, ausis) 
