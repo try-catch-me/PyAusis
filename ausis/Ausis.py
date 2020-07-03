@@ -44,7 +44,7 @@ class Ausis(CommandParser, object):
     first_reaction_text += "\n"
     prompt = (
         Fore.GREEN
-        + "{} Hi, how can i help you?\n".format(PROMPT_CHAR)
+        + "{} Hi, what can i do for you?\n".format(PROMPT_CHAR)
         + Fore.RESET)
 
     # This can be used to store user specific data
