@@ -6,6 +6,7 @@ Speech Interactive System in Python (PyAusis) developed for UNIX (Linux, MACOS) 
 # How to install
     git clone github.com/MrRobot-hub/PyAusis.git
     cd PyAusis
+    pip install colorama
     chmod +x setup.sh
     bash setup.sh
 
