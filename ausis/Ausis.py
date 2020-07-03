@@ -26,20 +26,6 @@ HISTORY_FILENAME = tempfile.TemporaryFile('w+t')
 
 PROMPT_CHAR = ':~'
 
-"""
-    AUTHORS' SCOPE:
-        We thought that the source code of Ausis would
-        be more organized if we treat Ausis as Object.
-        So we decided to create this Ausis Class which
-        implements the core functionality of Ausis in a
-        simpler way than the original __main__.py.
-    HOW TO EXTEND AUSIS:
-        In progress..
-    DETECTED ISSUES:
-        * Furthermore, "near me" command is unable to find
-        the actual location of our laptops.
-"""
-
 
 class Ausis(CommandParser, object):
     # We use this variable at Breakpoint #1.
@@ -58,7 +44,7 @@ class Ausis(CommandParser, object):
     first_reaction_text += "\n"
     prompt = (
         Fore.GREEN
-        + "{} Hi, what can I do for you?\n".format(PROMPT_CHAR)
+        + "{} Hi, how can i help you?\n".format(PROMPT_CHAR)
         + Fore.RESET)
 
     # This can be used to store user specific data
